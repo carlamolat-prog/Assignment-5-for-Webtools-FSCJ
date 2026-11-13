@@ -30,9 +30,9 @@ const topicsData = [
 // View definitions
 const views = {
   about: () => Header(
-    'Welcome to SpaceExplorer',
-    'A lightweight Single-Page Application built with Vanilla JS & Tailwind CSS',
-    'This mini SPA demonstrates dynamic DOM rendering, modular reusable components, and zero-reload client-side routing hosted directly on GitHub Pages.'
+    'Welcome Aboard',
+    'A lightweight Single-Page Application displaying information about my 3x favorite Florida Towns',
+    'This mini SPA is built with Vanilla JavaScript, linked to TailwindCSS, with an index HTML file for my WebTools Class.'
   ),
   topics: () => `
     <section>
@@ -42,7 +42,7 @@ const views = {
       </div>
     </section>
   `,
-  contact: () => Footer('hello@example.com', 'yourusername')
+  contact: () => Footer('s2091636@fscj.edu', 'Carl Amolat')
 };
 
 // Render function to swap sections
