@@ -8,22 +8,22 @@ const navButtons = document.querySelectorAll('.nav-btn');
 // Data for the 3 Wikipedia cards
 const topicsData = [
   {
-    title: 'James Webb Space Telescope',
-    tag: 'Observatory',
-    summary: 'A space telescope designed primarily to conduct infrared astronomy, allowing it to view objects too old, distant, or faint for Hubble.',
-    wikiUrl: 'https://wikipedia.org'
+    title: 'Daytona Beach, FL',
+    tag: 'Volusia',
+    summary: 'A city known for automobile races since 1900 and being the world's most famous beach.',
+    wikiUrl: 'https://en.wikipedia.org/wiki/Daytona_Beach,_Florida'
   },
   {
-    title: 'Black Hole',
-    tag: 'Astrophysics',
-    summary: 'A region of spacetime where gravity is so strong that nothing, including light and other electromagnetic waves, has enough energy to escape.',
-    wikiUrl: 'https://wikipedia.org'
+    title: 'Neptune Beach, FL,
+    tag: 'Duval',
+    summary: 'The middle beach of the three Jacksonville Beaches, home of the Bookmark, best bookstore on the coast.',
+    wikiUrl: 'https://en.wikipedia.org/wiki/Neptune_Beach,_Florida'
   },
   {
-    title: 'Exoplanet',
-    tag: 'Planetary Science',
-    summary: 'A planet outside the Solar System. Thousands have been discovered using transit photometry and radial velocity methods.',
-    wikiUrl: 'https://wikipedia.org'
+    title: 'Orlando, FL',
+    tag: 'Orange',
+    summary: 'A city with an ever growing population since 1971, due largely to the Walt Disney Corporation and diversifying in recent years.',
+    wikiUrl: 'https://en.wikipedia.org/wiki/Orlando,_Florida'
   }
 ];
 
