@@ -42,7 +42,7 @@ const views = {
       </div>
     </section>
   `,
-  contact: () => Footer('s2091636@fscj.edu', 'Carl Amolat')
+  contact: () => Footer('s2091636@fscj.edu', 'carlamolat-prog')
 };
 
 // Section swap function.
