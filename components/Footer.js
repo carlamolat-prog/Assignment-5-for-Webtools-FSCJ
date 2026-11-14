@@ -12,7 +12,7 @@ export function Footer(email, githubUser) {
           GitHub: @${githubUser}
         </a>
       </div>
-      <p class="text-xs text-gray-400 mt-8">© ${new Date().getFullYear()} SpaceExplorer Mini SPA</p>
+      <p class="text-xs text-gray-400 mt-8">© ${new Date().getFullYear()} FloridaExplorer Mini SPA</p>
     </footer>
   `;
 }
