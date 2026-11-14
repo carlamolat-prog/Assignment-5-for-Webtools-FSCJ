@@ -31,7 +31,7 @@ const topicsData = [
 const views = {
   about: () => Header(
     'Welcome Aboard',
-    'A lightweight Single-Page Application displaying information about my 3x favorite Florida Towns',
+    'A lightweight Single-Page Application displaying information about my three favorite Florida Towns',
     'This mini SPA is built with Vanilla JavaScript, linked to TailwindCSS, with an index HTML file for my WebTools Class.'
   ),
   topics: () => `
