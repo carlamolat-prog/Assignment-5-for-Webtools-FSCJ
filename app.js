@@ -5,7 +5,7 @@ import { Footer } from './components/Footer.js';
 const appContainer = document.getElementById('app');
 const navButtons = document.querySelectorAll('.nav-btn');
 
-// Data for the 3 Wikipedia cards
+// Data from 3 Wikipedia sites for the cards.
 const topicsData = [
   {
     title: 'Daytona Beach, FL',
@@ -27,7 +27,7 @@ const topicsData = [
   }
 ];
 
-// View definitions
+// The views
 const views = {
   about: () => Header(
     'Welcome Aboard',
@@ -45,9 +45,9 @@ const views = {
   contact: () => Footer('s2091636@fscj.edu', 'Carl Amolat')
 };
 
-// Render function to swap sections
+// Section swap function.
 function renderView(route) {
-  // Update active button styling
+  // Button styling.
   navButtons.forEach(btn => {
     if (btn.dataset.route === route) {
       btn.classList.add('underline');
@@ -56,7 +56,7 @@ function renderView(route) {
     }
   });
 
-  // Inject component HTML
+  // HTML injections.
   appContainer.innerHTML = views[route]();
 
   // Attach interactive listener if on the About view
