@@ -14,7 +14,7 @@ const topicsData = [
     wikiUrl: 'https://en.wikipedia.org/wiki/Daytona_Beach,_Florida'
   },
   {
-    title: 'Neptune Beach, FL,'
+    title: 'Neptune Beach, FL',
     tag: 'Duval',
     summary: 'The middle beach of the three Jacksonville Beaches, home of the Bookmark, best bookstore on the coast.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Neptune_Beach,_Florida'
