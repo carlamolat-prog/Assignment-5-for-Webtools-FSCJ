@@ -10,7 +10,7 @@ const topicsData = [
   {
     title: 'Daytona Beach, FL',
     tag: 'Volusia',
-    summary: 'A city known for automobile races since 1900 and being the worlds most famous beach.',
+    summary: 'A city known for automobile races since 1900 and being the most famous beach in the world.',
     wikiUrl: 'https://en.wikipedia.org/wiki/Daytona_Beach,_Florida'
   },
   {
